@@ -17,6 +17,6 @@ then memes contain url and name in it
 5. If everything’s fine, it saves the list of memes into the memes state.
 6. If something goes wrong, it saves an error message in error.
 7. In the end, it turns off the loading state.
-8. I have introduced useMemo to get filteredMemes and converting the search term to lowercase and returning either the whole memes string or just those whose name includes the search text.
+8. I have added useMemo to get filteredMemes and converting the search term to lowercase and returning either the whole memes string or just those whose name includes the search text.
 9. Then I created a header that includes a title and a search bar linked to the searchTerm state.
 10. Below it, there’s a content section that changes depending on what’s happening — Each card displays the meme image using meme.url and the meme.name as its caption.
